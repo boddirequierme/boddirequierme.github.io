@@ -1,0 +1,39 @@
+body {
+    font-family:'Trebuchet MS','Lucida Sans', sans-serif; 
+    border: 1px solid violet; 
+    width: 50em;
+    margin-right:auto;
+    margin-left: auto;
+    padding: 1em;
+}
+h1 {
+    color: blue;
+    margin-right:auto;
+    margin-left: auto;
+    padding: 3em;
+    
+}
+h2 {
+    color: pink; 
+    }
+    .Lennon {
+        color: firebrick;
+    }
+    .Lennon strong {
+        color: blue;
+    }
+    p strong {
+        color:red
+    }
+    ul li {
+        color: darkmagenta;
+    }
+    a:link {
+        color: red;
+    }
+    a:visited{
+        color: green;
+    }
+    a:hover, a:active {
+        color: #00f;
+    }
