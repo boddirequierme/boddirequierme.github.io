@@ -1,0 +1,64 @@
+*{
+    box-sizing: border-box;
+}
+body{
+    max-width: 60em;
+    margin: 0 auto;
+    line-height: 1.4;
+}
+header {
+    background-color:brown;
+}
+header h1 {
+    text-align: center;
+}
+.col-3{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+}
+.col-2{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}   
+section{
+    padding: 1em;
+    border: 1px solid gray;
+}
+.serif{
+    font-family: Georgia, 'Times New Roman', serif;
+}
+.sansSerif {
+    font-family: 'Gill Sans', 'Gill Sans MT', 'Trebuchet MS', serif;
+}
+.monotype{
+    font-family: 'Courier New', Courier, monospace;
+}
+.palaTino {
+    font-family: 'Platino Linotype',"Book Antiqua",Platinio, sans-serif;
+}
+.fyrirsogn {
+    background-color:green
+}
+.comic{
+    font-family: "Comic Sans MS",sans-serif;
+}
+.fyrirsogn h1{
+    font-family: impact,"Arial Black",sans-serif;
+    font-size: 2em;
+    text-align: center;}
+.arialBlack{
+   font-family:  "Lucida Sans Unicode", "Lucida Grande", sans-serif;
+}
+.raudur {
+    color: red;
+}
+.small{
+    font-size: 0.6em;
+    letter-spacing: 0.04em;
+    line-height: 1.5;
+    font-weight: 400;
+}
+.h3 {
+        font-size: 0.7em;
+        line-height: 1.6em;
+}
